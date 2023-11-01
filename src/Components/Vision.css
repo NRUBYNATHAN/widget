@@ -1,0 +1,102 @@
+.vision_head {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  width: 500px;
+  height: 100px;
+}
+.vision_desc {
+  width: 500px;
+  height: auto;
+}
+
+.vision_boxs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.vision {
+  background-color: #f7f7f7;
+}
+.box_head {
+  margin: 0;
+  color: rgb(242, 76, 104);
+}
+.box_text {
+  margin: 0;
+}
+.main_vision {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding-left: 150px;
+  padding-bottom: 30px;
+  padding-right: 170px;
+}
+.vision_head {
+  margin: 0;
+  margin-top: 30px;
+}
+.vision_desc {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.vision_box {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 263px;
+  height: 100px;
+  padding: 10px;
+
+  border-radius: 10px;
+  background-color: transparent;
+  color: #060606;
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s;
+  overflow: hidden;
+}
+.vision_box:hover {
+  cursor: pointer;
+  color: white;
+}
+.vision_box:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  width: 120%;
+  height: 220%;
+  background-color: #efc807;
+  border-radius: 50%;
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+.vision_box:hover:before {
+  top: -50%;
+  left: -10%;
+}
+.vi_img {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  border-radius: 20px;
+}
+
+.vi_img .vision_img {
+  width: 500px;
+  height: 300px;
+  object-fit: contain;
+  transition: all ease-in-out 0.5s;
+}
+.vi_img:hover .vision_img {
+  cursor: pointer;
+  scale: 1.5;
+}

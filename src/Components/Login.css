@@ -1,0 +1,36 @@
+.login {
+  height: 400px;
+  width: 300px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.main-login {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("https://images.pexels.com/photos/1646753/pexels-photo-1646753.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.lo {
+  margin: 0;
+  color: white;
+}
+.input {
+  width: 300px;
+}
